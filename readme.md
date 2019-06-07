@@ -7,7 +7,7 @@ Jonas and Sebi
 
 
 
-##With choco 
+## With choco 
 (https://chocolatey.org/docs/installation)
 
 ```choco install docker-desktop kubernetes-cli azure-cli -y```
