@@ -1,0 +1,21 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: my-deployment
+  namespace: sli
+  labels:
+    name: my-deployment
+spec:
+  replicas: 1
+  minReadySeconds: 5 
+  template:
+    metadata:
+      labels:
+        app: myapp
+    spec:
+      containers:
+      - name: my-container
+        image: tksailor/sailingschool:myapp-sli-1.0.0
+        ports:
+        - containerPort: 80
+          name: http
