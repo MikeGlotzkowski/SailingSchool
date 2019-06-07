@@ -18,7 +18,7 @@ To create a context, adapt and run:
 kubectl config set-context <name-of-your-context> --namespace=<name-of-your-namespace> --cluster=<name-of-your-cluster> --user=<name-of-your-user>
 ```
 
-Your could might be
+Yours might be
 
 --user=clusterUser\_\<resource-grp-of-your-clsuter>\_\<name-of-your-cluster>
 
